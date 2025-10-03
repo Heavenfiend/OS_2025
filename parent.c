@@ -67,7 +67,6 @@ int main() {
             } else if (inputChar == '\n') {
                 number *= sign;
 
-                // DEBUG: выводим, что отправляем
                 char debug_msg[32];
                 int len = 0;
                 int temp = number;
